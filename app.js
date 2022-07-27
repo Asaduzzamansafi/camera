@@ -1,5 +1,5 @@
-const webElement = document.querySelector("#webcam");
-const canvasElement = document.querySelector("#canvas");
+const webElement = document.getElementById("webcam");
+const canvasElement = document.getElementById("canvas");
 
 const webcam = new webcam(webElement, "user", canvasElement);
 webcam.start();
